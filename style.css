@@ -491,7 +491,8 @@ footer{
 /* --------------footer styles-------- */
     footer p{
         width: 400px;
-        font-size: 12px;
+        font-size: 10px;
+        text-align: center;
     }
 /* -------xx-------end footer styles----xx---- */
 }    
