@@ -1,0 +1,482 @@
+/* ------google font----- */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+
+/* -------common styles------ */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    
+}
+header{  
+    padding: 50px 0;
+    background-color: #FFF4E7;
+}
+nav, .banner, main, footer{
+    width: 80%;
+    margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #131313;
+}
+p{
+    color: #727272;
+}
+.primary-btn{
+    padding: 20px 24px;
+    background-color: #FF900E;
+    color: white;
+    border: 1px solid #FF900E;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: background-color .3s, color .3s;
+}
+.primary-btn:hover{
+    background-color: transparent;
+    color: #FF900E;
+}
+.section-title{
+    font-size: 45px;
+}
+.section-description{
+    font-size: 16px;
+    line-height: 25px;
+}
+/* -----xx------End Common Styles------xx----- */
+
+/* -----Navbar Styles------ */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 45px;
+}
+.menubar ul{
+    display: flex;
+    align-items: center;
+}
+.menubar li{
+    list-style: none;
+    margin-left: 30px;
+}
+.menubar a{
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+}
+.menubar a:hover{
+    color: #FF900E;
+}
+.bell, .user{
+    font-size: 20px;
+}
+/* ---xx---End Navbar Styles----xx---- */
+
+/* ----------Banner Section Styles--------- */
+.banner{
+    margin-top: 100px;
+}
+.banner-details{
+    width: 862px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 64px;
+}
+.banner-description{
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.banner-btn{
+    margin-bottom: 50px;
+}
+.banner-image img{
+    width: 100%;
+}
+/* -----xx-----End Banner Section Styles----xx----- */
+
+/* ------------Features Section Styles----------- */
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 85px;
+}
+.features-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    margin-right: 70px;
+}
+.features-images img{
+    width: 100%;
+}
+.features-author{
+    width: 537px;
+}
+.Quick-span{
+    color: #727272;
+}
+.Features-span{
+    color: #FF900E;
+}
+.features-description{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+/* ------xx------End Features Section Styles-----xx------ */
+
+/*-----------------More Features Section Styles--------------*/
+.more-features{
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.more-features-details{
+    width: 586px;
+    margin-right: 140px;
+}
+.more-features-title{
+    margin-bottom: 25px;
+    padding: 0 20px;
+    border-left: 5px solid #FF900E;
+}
+.features-card{
+    margin-top: 20px;
+    padding: 30px;
+    box-shadow: 0px 4px 30px #0000000f;
+    border-radius: 8px;
+}
+.more-btn{
+    margin-top: 20px;
+}
+.more-features-image{
+    position: relative;
+}
+.more-features-image img{
+    width: 100%;
+}
+.experience-btn{
+    position: absolute;
+    bottom: -70px;
+    left: -90px;
+    z-index: 10;
+    width: 342px;
+    height: 200px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.experience-span{
+    font-size: 65px;
+    font-weight: 700;
+}
+/*---------xx------End More Features Section Styles-----xx-------*/
+
+/* ------------------Some Fact Section Styles----------------- */
+.facts{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+.section-author{
+    width: 542px;
+}
+.section-author .section-description{
+    margin-top: 25px;
+}
+.activities{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 50px;
+    margin-top: 80px;
+}
+.activity{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ribon{
+    transition: transform 1s;
+}
+.ribon-activity:hover .ribon{
+    transform: rotateY(360deg);
+}
+.projects{
+    transition: transform 1s;
+}
+.projects-activity:hover .projects{
+    transform: rotateX(360deg);
+}
+.customers{
+    transition: transform 1s;
+}
+.customers-activity:hover .customers{
+    transform: rotateY(360deg);
+}
+.email{
+    transition: transform 1s;
+}
+.email-activity:hover .email{
+    transform: rotateX(360deg);
+}
+.activity h1{
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.activity p{
+    color: #424242;
+}
+/* ----------xx--------End Some Fact Section Styles-------xx---------- */
+
+/* ---------------Services Section Styles-------------- */
+.our-services{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.our-services .section-title{
+    margin-bottom: 50px;
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0px 4px 30px #0000000f;
+    border-radius: 8px;
+}
+.service-img{
+    width: 342px;
+    height: 242px;
+}
+.service-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.service-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.service-description{
+    width: 330px;
+    text-align: justify;
+}
+/* -------xx--------End Services Section Styles-------xx------- */
+
+/* -----------------Sponsors Section Styles---------------- */
+.sponsors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 180px;
+}
+.sponsors-author{
+    width: 542px;
+    text-align: center;
+    margin: 0 auto;
+}
+.sponsors-author .section-description{
+    margin-top: 20px;
+}
+.sponsors-logos{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 100px;
+    margin-top: 50px;
+}
+.sponsor-logo{
+    width: 150px;
+}
+.sponsor-logo img{
+    width: 100%;
+    filter: grayscale(1);
+}
+/* -------xx--------End Sponsors Section Styles-------xx---------*/
+
+/* -------------Footer Styles--------- */
+footer{
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    height: 100px;
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* -------xx------End Footer Styles-------xx----- */
+
+
+/* --------------------------
+        Media Query 
+    ----------------------*/
+
+    /* --------for 19 inch monitor
+                    just try------- */
+
+@media only screen and (max-width: 1450px) {
+    .card-3{
+        display: none;
+    }
+    /* .card-4{
+        display: none;
+    } */
+}
+@media only screen and (max-width: 767px){
+    /* -------common styles------ */
+    header{
+        padding: 20px 0;
+    }
+    nav, .banner, main, footer{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .primary-btn{
+        padding: 14px 28px;
+        border-radius: 8px;
+        font-size: 16px;
+    }
+    .section-title{
+        font-size: 35px;
+    }
+    .section-description{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    /* -----xx------End Common Styles------xx----- */
+
+/* -----Navbar Styles------ */
+    nav{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo{
+        margin-bottom: 30px;
+    }
+    .menubar{
+        background-color: #fceddb;
+        width: 100%;
+    }
+    .menubar ul{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .menubar li{
+        margin-bottom: 20px;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+    .bell-icon{
+        display: none;
+    }
+    .user-icon{
+        display: none;
+    }
+/* ---xx---End Navbar Styles----xx---- */
+
+/* ----------Banner Section Styles--------- */
+    .banner{
+        margin-top: 50px;
+    }
+    .banner-details{
+        width: 80%;
+    }
+    .banner-title{
+        font-size: 54px;
+    }
+/* -----xx-----End Banner Section Styles----xx----- */
+
+/* ------------Features Section Styles----------- */
+    .features{
+        flex-direction: column;
+    }
+    .features-images{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .features-author{
+        text-align: center;
+        margin-top: 30px;
+    }
+/* ------xx------End Features Section Styles-----xx------ */
+
+/*-----------------More Features Section Styles--------------*/
+    .more-features{
+        flex-direction: column;
+    }
+    .more-features-details{
+        margin: 20px auto;
+    }
+    .experience{
+        display: flex;
+        justify-content: center;
+    }
+    .experience-btn{
+        position: static;
+        width: 242px;
+        height: 150px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .experience-span{
+        font-size: 45px;
+    }
+/*---------xx------End More Features Section Styles-----xx-------*/
+
+/* ------------------Some Fact Section Styles----------------- */
+    .facts{
+        margin-top: 100px;
+        align-items: center;
+    }
+    .section-author{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .activities{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+/* ----------xx--------End Some Fact Section Styles-------xx---------- */
+
+/* ---------------Services Section Styles-------------- */
+    .our-services{
+        align-items: center;
+    }
+    .services{
+        grid-template-columns: repeat(1, 1fr);
+    }
+/* -------xx--------End Services Section Styles-------xx------- */
+
+/* -----------------Sponsors Section Styles---------------- */
+    .sponsors{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .sponsors-logos{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+/* -------xx--------End Sponsors Section Styles-------xx---------*/
+}    
