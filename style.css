@@ -486,6 +486,9 @@ footer{
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
     }
+    .sponsor-logo{
+        width: 100px;
+    }
 /* -------xx--------End Sponsors Section Styles-------xx---------*/
 
 /* --------------footer styles-------- */
