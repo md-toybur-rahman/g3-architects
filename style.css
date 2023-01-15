@@ -415,10 +415,13 @@ footer{
     }
     .features-images{
         grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        margin-right: 0;
     }
     .features-author{
         text-align: center;
         margin-top: 30px;
+        width: 400px;
     }
 /* ------xx------End Features Section Styles-----xx------ */
 
@@ -428,6 +431,7 @@ footer{
     }
     .more-features-details{
         margin: 20px auto;
+        width: 400px;
     }
     .experience{
         display: flex;
@@ -453,6 +457,7 @@ footer{
     .section-author{
         margin: 0 auto;
         text-align: center;
+        width: 400px;
     }
     .activities{
         grid-template-columns: repeat(1, 1fr);
@@ -474,9 +479,19 @@ footer{
         margin-top: 100px;
         margin-bottom: 100px;
     }
+    .sponsors-author{
+        width: 400px;
+    }
     .sponsors-logos{
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
     }
 /* -------xx--------End Sponsors Section Styles-------xx---------*/
+
+/* --------------footer styles-------- */
+    footer p{
+        width: 400px;
+        font-size: 12px;
+    }
+/* -------xx-------end footer styles----xx---- */
 }    
